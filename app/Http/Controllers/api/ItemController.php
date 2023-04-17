@@ -26,13 +26,15 @@ class ItemController extends Controller
     public function show($id)
     {
         try {
-            return $item = Item::findOrFail($id);;
+            return $item = Item::findOrFail($id);
+            ;
         } catch (\Throwable $th) {
             throw $th;
         }
     }
 
-    public function update(Request $request, $id){
+    public function update(Request $request, $id)
+    {
         try {
             $item = Item::findOrFail($id);
             $item->update($request->all());
@@ -51,6 +53,6 @@ class ItemController extends Controller
         } catch (\Throwable $th) {
             throw $th;
         }
-        
+
     }
 }
