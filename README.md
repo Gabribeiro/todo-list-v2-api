@@ -1,16 +1,16 @@
-Todo List V2 API
+<h1>Todo List V2 API</h1>
 
 API Rest da aplicação Todo List V2.
 
 
-Requisitos:
+<h2>Requisitos:</h2>
 
 PHP >= 8.1,
 
 Composer >= 2.2
 
 
-Instalação:
+<h2>Instalação:</h2>
 
 Clone o repositório:
 
@@ -52,12 +52,12 @@ Inicie o servidor:
 php artisan serve.
 
 
-Uso:
+<h2>Uso:</h2>
 
 Todos os endpoints são na rota: http://localhost:8000/api/items
 
 
-Contribuição:
+<h2>Contribuição:</h2>
 
 
 Faça um fork do projeto,
@@ -71,6 +71,6 @@ Push para a branch (git push origin feature/MinhaFeature),
 Abra um Pull Request.
 
 
-Licença:
+<h2>Licença:</h2>
 
 API de código aberto, pode ser utilizada e replicada livremente.
